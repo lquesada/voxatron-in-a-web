@@ -9,6 +9,7 @@ DISCLAIMER: This is a proof of concept and is very hacky, it will likely not run
 Note:
 - This requires opening the html file through a web server (remote or local). It doesn't work by opening the local file directly with the browser.
 - Most of the (hacky) logic below is to alter the html file to run locally (and to hide e.g. name of the game cartridge).
+- This script doesn't use any data from the registered version of voxatron, nor does any sort of decompiling or reverse engineering. It just downloads the files used to play cartridges in lexaloffle.com bbs, which seem to be a player-only version of voxatron.
 
 Run sh generate.sh and it will generate the voxatron_player directory. Place it in a web server (e.g. start a local server) and open index.html from there.
 You can replace cartridge.png and thumbnail.png with any cartridge and thumbnail you want.
