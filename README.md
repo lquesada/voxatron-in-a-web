@@ -15,3 +15,5 @@ Run sh generate.sh and it will generate the voxatron_player directory. Place it 
 You can replace cartridge.png and thumbnail.png with any cartridge and thumbnail you want.
 
 If this doesn't work, perhaps the cartridge was removed. Find a new cartridge ID from voxatron bbs that works. Look for widget.php. An example of valid ID is 7705.
+
+I only wrote this script. All credit on Voxatron goes to lexaloffle.com.
