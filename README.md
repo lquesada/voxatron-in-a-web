@@ -11,5 +11,6 @@ Note:
 - Most of the (hacky) logic below is to alter the html file to run locally (and to hide e.g. name of the game cartridge).
 
 Run sh generate.sh and it will generate the voxatron_player directory. Place it in a web server (e.g. start a local server) and open index.html from there.
+You can replace cartridge.png and thumbnail.png with any cartridge and thumbnail you want.
 
-If it doesn't work, find a new cartridge ID from voxatron bbs that works. Look for widget.php. An examples of valid ID is 7705.
+If this doesn't work, perhaps the cartridge was removed. Find a new cartridge ID from voxatron bbs that works. Look for widget.php. An example of valid ID is 7705.
