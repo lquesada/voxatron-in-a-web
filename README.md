@@ -4,9 +4,9 @@ Copyright (c) 2021, Luis Quesada Torres - https://github.com/lquesada | www.luis
 
 This is a script that uses the existing widget deployment at lexaloffle.com bbs to generate a self-contained deployment of voxatron that runs in a web.
 
-**DISCLAIMER**: This is a proof of concept for educational purposes and is very hacky, it will likely not run well. It is not to be actually used. If you run this, you are the only person to be held responsible for it.
+**The example/ subdirectory contains a working example output, the script may not work anymore.** Test it [here](https://lquesada.github.io/voxatron-in-a-web/example/).
 
-**The example/ subdirectory contains a working example output, the script may not work anymore.**
+**DISCLAIMER**: This is a proof of concept for educational or local testing purposes and is very hacky, it will likely not run fine. It is not to be actually used. It is a bad idea to run this and, if you do, you are the only person to be held responsible for it if anything goes wrong.
 
 Note:
 - This requires opening the html file through a web server (remote or local). It doesn't work by opening the local file directly with the browser.
@@ -16,6 +16,6 @@ Note:
 Run sh generate.sh and it will generate the voxatron_player directory. Place it in a web server (e.g. start a local server) and open index.html from there.
 You can replace cartridge.png and thumbnail.png with any cartridge and thumbnail you want.
 
-If this doesn't work, perhaps the cartridge was removed. Find a new cartridge ID from voxatron bbs that works. Look for widget.php. An example of valid ID is 7705.
+If this doesn't work, perhaps the cartridge was removed or the web changed. Find a new cartridge ID from voxatron bbs that works. Look for widget.php. An example of valid ID is 7705.
 
 I only wrote this script. All credit on Voxatron goes to lexaloffle.com.
